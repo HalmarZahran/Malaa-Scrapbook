@@ -27,7 +27,7 @@ document.getElementById('verificationName').addEventListener('submit', function(
     const errorMessage = document.getElementById('error-message');
 
     // Validasi nama
-    const validNames = ['Dira', 'dira', 'Nandira', 'nandira', 'Bebe', 'bebe'];
+    const validNames = ['Butter', 'butter', 'Nirmala', 'nirmala', 'iin', 'Iin'];
 
     // Jika nama tidak valid, tampilkan pesan error
     if (!validNames.includes(nameInput)) {
@@ -51,7 +51,7 @@ document.getElementById('verification').addEventListener('submit', function(e) {
     // Jika jawabannya bukan 'yes', tampilkan pesan peringatan
     if (isPartner !== 'yes') {
         Swal.fire({
-            title: 'Bukan pacar Halmar!',
+            title: 'Bukan cowo Halmar!',
             text: 'Coba lagi dari awal.',
             icon: 'warning',
         }).then(() => {
@@ -66,7 +66,7 @@ document.getElementById('verification').addEventListener('submit', function(e) {
     // Jika valid, tampilkan SweetAlert sukses dan jalankan animasi
     Swal.fire({
         title: 'Verifikasi berhasil!',
-        text: 'Halo pacarku tercantik!',
+        text: 'Halo ceweku tercantik!',
         icon: 'success',
     }).then(() => {
         // Sembunyikan form verifikasi setelah sukses
